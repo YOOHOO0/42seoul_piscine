@@ -6,7 +6,7 @@
 /*   By: seoshin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/18 11:54:00 by seoshin           #+#    #+#             */
-/*   Updated: 2022/04/18 11:54:13 by seoshin          ###   ########.fr       */
+/*   Updated: 2022/05/04 12:00:50 by seoshin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,3 @@ int	ft_strlen(char *str)
 		i++;
 	return (i);
 }
-
-/*
-int	main(void)
-{
-	char *str = "jipgaja";
-	printf("%d", ft_strlen(str));
-	return 0;
-}
-*/

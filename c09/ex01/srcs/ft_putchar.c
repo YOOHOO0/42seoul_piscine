@@ -1,23 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: seoshin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/04/18 11:54:34 by seoshin           #+#    #+#             */
-/*   Updated: 2022/05/04 12:00:40 by seoshin          ###   ########.fr       */
+/*   Created: 2022/04/14 20:35:58 by seoshin           #+#    #+#             */
+/*   Updated: 2022/05/04 11:31:12 by seoshin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include <ft.h>
 
-void	ft_putstr(char *str)
+void	ft_putchar(char c)
 {
-	int	i;
-
-	i = 0;
-	while (str[i] != '\0')
-		i++;
-	write(1, str, i);
+	write(1, &c, 1);
 }
+
+/*
+int main(void)
+{
+	ft_putchar('a');
+	return 0;
+}
+*/
