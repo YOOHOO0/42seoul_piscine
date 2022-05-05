@@ -4,11 +4,22 @@ CFLAGS		= -Wall -Wextra -Werror
 
 NAME		= do-op
 
-all:		doop.c doop2.c
-			${GCC} ${CFLAGS} doop.c doop2.c -o ${NAME}
+SRCS		= doop.c doop2.c
+
+OBJS		= ${SRCS:.c=.o}
+
+.c.o:
+			${GCC} ${CFLAGS} -c $< -o ${<:.c=.o}
+
+${NAME}:	${OBJS}
+			${GCC} ${CFLAGS} ${OBJS} -o ${NAME}
+
+all:		${NAME}
+
 clean :
-			rm ${NAME}
+			rm -f ${OBJS}
 
 fclean :	clean
+			rm -f ${NAME}
 
 re:			fclean all
