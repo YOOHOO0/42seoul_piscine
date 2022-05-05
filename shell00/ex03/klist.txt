@@ -1,0 +1,5 @@
+Credentials cache: API:7467DBD1-D638-4AA9-8BD2-146325598907
+        Principal: seoshin@42SEOUL.KR
+
+  Issued                Expires               Principal
+Apr 16 11:43:30 2022  Apr 16 21:43:26 2022  krbtgt/42SEOUL.KR@42SEOUL.KR
