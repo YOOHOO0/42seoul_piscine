@@ -1,8 +1,8 @@
 # 42seoul_piscine
 #### 2022. 04. 11. ~ 2022. 05. 06. 7기 1차
 
-project | score
---------|-------
+Project | Score
+:--------:|:-------:
 Shell00 | 100
 Shell01 | 100
 C00 | 100
