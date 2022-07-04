@@ -23,5 +23,3 @@ Exam 00 | 64
 Exam 01 | 미등록
 Exam 02 | 84
 Final exam | 90
-
-* C11 ex04 KO (수정완료)
